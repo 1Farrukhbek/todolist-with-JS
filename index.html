@@ -12,11 +12,36 @@
 </head>
 <body class="bg-warning">
   
+  <header class="site-header m-2">
+    <h1 class="site-header__heading sr-only">Todo List</h1>
+  </header>
+
+ <main class="main-section">
+   <div class="todo-section">
+     <h2 class="todo-section__heading text-center">Todo list</h2>
+     
+      <ul class="list-group">
+        <li class="list-group-item d-flex p-2" aria-disabled="true">
+          <div class="custom-control custom-checkbox text-truncate flex-grow-1">
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+          </div>
+          <button class="btn btn-sm btn-danger ml-2">X</button>
+        </li>
+        <li class="list-group-item d-flex p-2" aria-disabled="true">
+          <div class="custom-control custom-checkbox text-truncate flex-grow-1">
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+          </div>
+          <button class="btn btn-sm btn-danger ml-2">X</button>
+        </li>
+      </ul>
+   </div>
+ </main>
 
   
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/movies.js"></script>
   <script src="js/utilities.js"></script>
   <script src="js/scripts.js"></script>
 </body>

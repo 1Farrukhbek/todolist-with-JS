@@ -2,3 +2,8 @@ body {
   font-family: "Fredoka One", cursive;
 }
 
+.list-group{
+  max-height: 80vh;
+  margin-bottom: 10px;
+  overflow: auto;
+}
