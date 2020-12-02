@@ -3,7 +3,7 @@ body {
 }
 
 .list-group{
-  max-height: 80vh;
+  max-height: 70vh;
   margin-bottom: 10px;
   overflow: auto;
 }

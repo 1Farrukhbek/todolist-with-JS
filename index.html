@@ -16,18 +16,16 @@
     <h1 class="site-header__heading sr-only">Todo List</h1>
   </header>
 
- <main class="main-section">
+ <main class="main-section container">
    <div class="todo-section">
      <h2 class="todo-section__heading text-center">Todo list</h2>
+
+     <form action="https://echo.htmlacademy.ru" method="POST">
+       <input class="form-control mb-3" name="todo" type="text" placeholder="Type your Todo">
+     </form>
+     
      
       <ul class="list-group">
-        <li class="list-group-item d-flex p-2" aria-disabled="true">
-          <div class="custom-control custom-checkbox text-truncate flex-grow-1">
-            <input type="checkbox" class="custom-control-input" id="customCheck1">
-            <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
-          </div>
-          <button class="btn btn-sm btn-danger ml-2">X</button>
-        </li>
         <li class="list-group-item d-flex p-2" aria-disabled="true">
           <div class="custom-control custom-checkbox text-truncate flex-grow-1">
             <input type="checkbox" class="custom-control-input" id="customCheck1">
