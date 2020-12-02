@@ -5,31 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link rel="shortcut icon" type="image/png" href='img/movie-favicon.png'> -->
   <title>Todo list</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-warning">
-  
   <header class="site-header m-2">
-    <h1 class="site-header__heading sr-only">Todo List</h1>
+    <h1 class="site-header__heading text-center">Todo List <span>&#128203;</span></h1>
   </header>
   
   <main class="main-section container">
     <section class="search">
-      <h2 class="todo-section__heading text-center">Todo input</h2>
+      <h2 class="sr-only">Todo input</h2>
       <form action="https://echo.htmlacademy.ru" method="POST">
         <input class="form-control mb-3 js-todo-input" name="todo" aria-label="Todo text" type="text" placeholder="Type your Todo">
       </form>  
     </section>
     
     <section class="todo-section">
-      <h2 class="todo-section__heading text-center">Todo list</h2>
+      <h2 class="sr-only">Todo list</h2>
       <ul class="list-group js-todo-list"></ul>
     </section>
   </main>
-
+  
   <template>
     <li class="list-group-item d-flex p-2" aria-disabled="true">
       <div class="custom-control custom-checkbox text-truncate flex-grow-1">
