@@ -7,3 +7,9 @@ body {
   margin-bottom: 10px;
   overflow: auto;
 }
+
+.custom-control-label::before, 
+.custom-control-label::after {
+    width: 1.25rem;
+    height: 1.25rem;
+}
